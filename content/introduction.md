@@ -7,7 +7,6 @@ Category: general
 The Hackathon runs in UTC time, usual active periods are from 12:00 to 17:00 UTC. Please join the Kitchen (see below) for starting out and look around in the other rooms to find interesting topics.
 
 ## Useful links
-* [owncloud folder](https://owncloud.gwdg.de/index.php/s/3Afwy8PF0uyYm1u)
 * [Old Jupyterhub](https://jupyterhub.dkrz.de)
 * [New Jupyterhub](https://jh-test.dkrz.de)
 * Connect to Mistral per ssh: ssh k2061xx@mistralpp.dkrz.de (replace xx with 01-45)
