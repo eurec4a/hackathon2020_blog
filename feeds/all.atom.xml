@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>EUREC4A Hackathon 2020</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2020-07-29T00:00:00+00:00</updated><entry><title>using intake to access specMACS products on DKRZ</title><link href="/using-intake-to-access-specmacs-products-on-dkrz.html" rel="alternate"></link><published>2020-07-29T00:00:00+00:00</published><updated>2020-07-29T00:00:00+00:00</updated><author><name>Tobias Kölling</name></author><id>tag:None,2020-07-29:/using-intake-to-access-specmacs-products-on-dkrz.html</id><summary type="html"></summary><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EUREC4A Hackathon 2020</title><link href="https://eurec4a.github.io/hackathon2020_blog/" rel="alternate"></link><link href="https://eurec4a.github.io/hackathon2020_blog/feeds/all.atom.xml" rel="self"></link><id>https://eurec4a.github.io/hackathon2020_blog/</id><updated>2020-07-29T00:00:00+00:00</updated><entry><title>using intake to access specMACS products on DKRZ</title><link href="https://eurec4a.github.io/hackathon2020_blog/using-intake-to-access-specmacs-products-on-dkrz.html" rel="alternate"></link><published>2020-07-29T00:00:00+00:00</published><updated>2020-07-29T00:00:00+00:00</updated><author><name>Tobias Kölling</name></author><id>tag:eurec4a.github.io,2020-07-29:/hackathon2020_blog/using-intake-to-access-specmacs-products-on-dkrz.html</id><summary type="html"></summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1352,7 +1352,7 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="code examples"></category><category term="code"></category></entry><entry><title>Introduction</title><link href="/introduction.html" rel="alternate"></link><published>2020-07-28T18:00:00+00:00</published><updated>2020-07-28T18:00:00+00:00</updated><author><name>EUREC4A Community</name></author><id>tag:None,2020-07-28:/introduction.html</id><summary type="html">&lt;h1&gt;Welcome to the Hackathon&lt;/h1&gt;
+</content><category term="code examples"></category><category term="code"></category></entry><entry><title>Introduction</title><link href="https://eurec4a.github.io/hackathon2020_blog/introduction.html" rel="alternate"></link><published>2020-07-28T18:00:00+00:00</published><updated>2020-07-28T18:00:00+00:00</updated><author><name>EUREC4A Community</name></author><id>tag:eurec4a.github.io,2020-07-28:/hackathon2020_blog/introduction.html</id><summary type="html">&lt;h1&gt;Welcome to the Hackathon&lt;/h1&gt;
 &lt;p&gt;The Hackathon runs in UTC time, usual active periods are from 12:00 to 17:00 UTC. Please join the Kitchen (see below) for starting out and look around in the other rooms to find interesting topics.&lt;/p&gt;
 &lt;h2&gt;Useful links&lt;/h2&gt;
 &lt;ul&gt;
