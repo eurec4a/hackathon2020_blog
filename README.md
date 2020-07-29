@@ -1,6 +1,6 @@
 # EUREC4A Hackathon 2020 blog
 
-Welcome to the backend of the EUREC4A 2020 hackathon blog.
+Welcome to the backend of the EUREC4A 2020 hackathon blog. If you want to see the blog, please go [this way](https://eurec4a.github.io/hackathon2020_blog/).
 If you want to post anything, please add your article into the content subfolder.
 Currently [markdown files](https://docs.getpelican.com/en/stable/quickstart.html#create-an-article) and [ipython notebooks](https://github.com/danielfrg/pelican-jupyter) are supported.
 
