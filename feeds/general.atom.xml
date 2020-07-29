@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>EUREC4A Hackathon 2020 - general</title><link href="/" rel="alternate"></link><link href="/feeds/general.atom.xml" rel="self"></link><id>/</id><updated>2020-07-28T18:00:00+00:00</updated><entry><title>Introduction</title><link href="/introduction.html" rel="alternate"></link><published>2020-07-28T18:00:00+00:00</published><updated>2020-07-28T18:00:00+00:00</updated><author><name>EUREC4A Community</name></author><id>tag:None,2020-07-28:/introduction.html</id><summary type="html">&lt;h1&gt;Welcome to the Hackathon&lt;/h1&gt;
+&lt;p&gt;The Hackathon runs in UTC time, usual active periods are from 12:00 to 17:00 UTC. Please join the Kitchen (see below) for starting out and look around in the other rooms to find interesting topics.&lt;/p&gt;
+&lt;h2&gt;Useful links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://owncloud.gwdg.de/index.php/s/3Afwy8PF0uyYm1u"&gt;owncloud folder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://jupyterhub.dkrz.de"&gt;Old Jupyterhub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://jh-test.dkrz.de"&gt;New Jupyterhub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Connect …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Welcome to the Hackathon&lt;/h1&gt;
+&lt;p&gt;The Hackathon runs in UTC time, usual active periods are from 12:00 to 17:00 UTC. Please join the Kitchen (see below) for starting out and look around in the other rooms to find interesting topics.&lt;/p&gt;
+&lt;h2&gt;Useful links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://owncloud.gwdg.de/index.php/s/3Afwy8PF0uyYm1u"&gt;owncloud folder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://jupyterhub.dkrz.de"&gt;Old Jupyterhub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://jh-test.dkrz.de"&gt;New Jupyterhub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Connect to Mistral per ssh: ssh k2061xx@mistralpp.dkrz.de (replace xx with 01-45)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Rooms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-ukz-3zc"&gt;Kitchen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-9f2-ax9"&gt;Oistins&lt;/a&gt; -- Cloud macro- and micro-physics&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-qmd-hjx"&gt;Morgan Lewis&lt;/a&gt; -- Satellite perspective&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-atk-33k"&gt;Bathsheba&lt;/a&gt; -- Air sea interaction&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-e2d-f2e"&gt;Bridgetown&lt;/a&gt; -- Boundary layer / proﬁles&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-dtx-az9"&gt;St Nicholas Abbey&lt;/a&gt; -- Organization&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-rvv-gy6"&gt;Miami Beach&lt;/a&gt; -- Code&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-dmt-ekk"&gt;North Point&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-yde-6h4"&gt;Grantley Adams Airport&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://classroom.cen.uni-hamburg.de/b/hei-fv7-dhf"&gt;Deebles Point&lt;/a&gt; -- Characterising the environment&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"></category></entry></feed>
