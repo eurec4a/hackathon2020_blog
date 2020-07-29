@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'EUREC4A Community'
 SITENAME = 'EUREC4A Hackathon 2020'
-SITEURL = 'https://eurec4a.github.io/hackathon2020_blog/'
+SITEURL = ''
 
 PATH = 'content'
 
