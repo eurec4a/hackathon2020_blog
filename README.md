@@ -11,3 +11,9 @@ pelican content -r -l
 and access the Site at [http://localhost:8000/](http://localhost:8000/).
 
 If you are happy with your new article, please file a pull request.
+
+## requirements
+In order to run the site generator locally, you'll have to install some dependencies:
+```bash
+pip install pelican[Markdown] pelican-jupyter
+```
