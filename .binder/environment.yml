@@ -1,0 +1,14 @@
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - Cartopy
+  - pip
+  - pip:
+    - xarray
+    - intake
+    - intake-xarray
+    - pyyaml
+    - typhon
