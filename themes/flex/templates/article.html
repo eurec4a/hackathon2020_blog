@@ -32,6 +32,11 @@
         &#8226; {{ article.stats['read_mins'] }} min read
       {% endif %}
     </p>
+    {% if article.relative_source_path.endswith(".ipynb") %}
+    <p>
+    <a href="https://mybinder.org/v2/gh/eurec4a/hackathon2020_blog/master?filepath=content/{{ article.relative_source_path|urlencode }}"><img src="https://mybinder.org/badge_logo.svg" alt="open in binder"></a>
+    </p>
+    {% endif %}
   </header>
 
   {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.article_top %}
