@@ -4,11 +4,22 @@ from __future__ import unicode_literals
 
 AUTHOR = 'EUREC4A Community'
 SITENAME = 'EUREC4A Hackathon 2020'
+SITETITLE = "EUREC4A"
+SITESUBTITLE = "Hackathon 2020"
 SITEURL = ''
 
 PATH = 'content'
 
 MARKUP = ("md", "ipynb")
+
+THEME = 'themes/flex'
+SITELOGO = SITEURL + "/images/logo_eurec4a.png"
+MAIN_MENU = True
+
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),
+             ('Authors', '/authors.html'),)
 
 TIMEZONE = 'UTC'
 
@@ -22,12 +33,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('EUREC4A', 'http://eurec4a.eu/'),
+LINKS = (('EUREC4A Campaign Website', 'http://eurec4a.eu/'),
         )
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
+
+STATIC_PATHS = ['images']
 
 DEFAULT_PAGINATION = False
 
