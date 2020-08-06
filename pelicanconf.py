@@ -16,11 +16,15 @@ THEME = 'themes/flex'
 SITELOGO = SITEURL + "images/logo_eurec4a.png"
 MAIN_MENU = True
 
-MENUITEMS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),
-             ('Authors', '/authors.html'),)
+_menuitems = [('Archives', 'archives.html'),
+              ('Categories', 'categories.html'),
+              ('Tags', 'tags.html'),
+              ('Authors', 'authors.html'),]
 
+def make_menu(basepath):
+    return [(name, basepath + link) for name, link in _menuitems]
+
+MENUITEMS = make_menu(SITEURL)
 TIMEZONE = 'UTC'
 
 DEFAULT_LANG = 'en'

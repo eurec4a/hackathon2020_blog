@@ -15,6 +15,8 @@ SITEURL = 'https://eurec4a.github.io/hackathon2020_blog/'
 SITELOGO = SITEURL + "images/logo_eurec4a.png"
 RELATIVE_URLS = False
 
+MENUITEMS = make_menu(SITEURL)
+
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
