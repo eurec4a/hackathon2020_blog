@@ -6,14 +6,14 @@ AUTHOR = 'EUREC4A Community'
 SITENAME = 'EUREC4A Hackathon 2020'
 SITETITLE = "EUREC4A"
 SITESUBTITLE = "Hackathon 2020"
-SITEURL = ''
+SITEURL = '/'
 
 PATH = 'content'
 
 MARKUP = ("md", "ipynb")
 
 THEME = 'themes/flex'
-SITELOGO = SITEURL + "/images/logo_eurec4a.png"
+SITELOGO = SITEURL + "images/logo_eurec4a.png"
 MAIN_MENU = True
 
 MENUITEMS = (('Archives', '/archives.html'),

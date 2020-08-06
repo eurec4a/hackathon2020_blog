@@ -12,6 +12,7 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://eurec4a.github.io/hackathon2020_blog/'
+SITELOGO = SITEURL + "images/logo_eurec4a.png"
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
