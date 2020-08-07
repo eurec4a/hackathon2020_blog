@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://eurec4a.github.io/hackathon2020_blog/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://eurec4a.github.io/hackathon2020_blog/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="https://eurec4a.github.io/hackathon2020_blog/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="https://eurec4a.github.io/hackathon2020_blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="EUREC4A Hackathon 2020 Atom">
+
+
+
+
+
+<meta name="author" content="Tobias Kölling" />
+<meta name="description" content="With binder, it is possible to prepare code examples such that readers can quickly start interacting with the code and data." />
+<meta name="keywords" content="">
+
+<meta property="og:site_name" content="EUREC4A Hackathon 2020"/>
+<meta property="og:title" content="Using binder for running notebooks interactively"/>
+<meta property="og:description" content="With binder, it is possible to prepare code examples such that readers can quickly start interacting with the code and data."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://eurec4a.github.io/hackathon2020_blog/using-binder-for-running-notebooks-interactively.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-08-07 14:00:00+00:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://eurec4a.github.io/hackathon2020_blog/author/tobias-kolling.html">
+<meta property="article:section" content="general"/>
+<meta property="og:image" content="https://eurec4a.github.io/hackathon2020_blog/images/logo_eurec4a.png">
+
+  <title>EUREC4A Hackathon 2020 &ndash; Using binder for running notebooks interactively</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="https://eurec4a.github.io/hackathon2020_blog">
+        <img src="https://eurec4a.github.io/hackathon2020_blog/images/logo_eurec4a.png" alt="EUREC4A" title="EUREC4A">
+      </a>
+      <h1><a href="https://eurec4a.github.io/hackathon2020_blog">EUREC4A</a></h1>
+
+<p>Hackathon 2020</p>
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://eurec4a.eu/" target="_blank">EUREC4A Campaign Website</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://eurec4a.github.io/hackathon2020_blog">    Home
+</a>
+
+      <a href="https://eurec4a.github.io/hackathon2020_blog/archives.html">Archives</a>
+      <a href="https://eurec4a.github.io/hackathon2020_blog/categories.html">Categories</a>
+      <a href="https://eurec4a.github.io/hackathon2020_blog/tags.html">Tags</a>
+      <a href="https://eurec4a.github.io/hackathon2020_blog/authors.html">Authors</a>
+
+      <a href="https://eurec4a.github.io/hackathon2020_blog/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="using-binder-for-running-notebooks-interactively">Using binder for running notebooks interactively</h1>
+    <p>
+          Posted on Fr 07 August 2020 in <a href="https://eurec4a.github.io/hackathon2020_blog/category/general.html">general</a>
+
+
+          &#8226;     by
+
+          <a href="https://eurec4a.github.io/hackathon2020_blog/author/tobias-kolling.html">Tobias Kölling</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>This post roughly describes the purpose binder and how binder is used within this blog.</p>
+<h2>What is binder?</h2>
+<p><a href="https://mybinder.org">Binder</a> is a service for running notebooks hosted in git repositories interactively. At it's core, binder uses <a href="https://repo2docker.readthedocs.io/">repo2docker</a> which transforms any git repository into a docker based operating system image, which contains all necessary software to run the code of the repository. mybinder.org is being run as a <a href="https://binderhub.readthedocs.io/en/latest/federation/federation.html">federation of servers</a> by several companies and institutions. Binder is also open source, so it is possible to run binder on own premises or to join the binder federation by donating compute resources.</p>
+<h2>What is needed to run data evaluation code in binder</h2>
+<p>To do useful data evaluation in binder, both the code and the data must be available publicly.</p>
+<p>For the EUREC4A field campaign data is and will be hosted on <a href="https://eurec4a.aeris-data.fr/">Aeris</a>, from where all datasets are accessible via <a href="https://www.opendap.org/">OPeNDAP</a>. That way, it is easy to access datasets and subsets thereof from all over the world. Another option which we are currently investigating is to use <a href="https://zarr.readthedocs.io/">Zarr</a>, which started out as a Python library but actually defines a flexible data storage format which can naturally be served via HTTP. The netCDF developers are also currently working on <a href="https://www.unidata.ucar.edu/blogs/developer/en/entry/overview-of-zarr-support-in">adding a Zarr variant</a> to netCDF, such that in future, Zarr archives will be available to everyone who is able to access netCDF.</p>
+<p>Code can be shared via publicly available git repositories or package repositories. This blog is also a git repository and is used to share code examples, both as blog articles and as a code snippets to be run in binder.</p>
+<h2>Configuring binder</h2>
+<p>In general, any github repository can directly be run within binder using <a href="https://mybinder.org/">mybinder.org</a>. This would run the repository in a default environment, which has only very few libraries installed. While it is possible to install further dependencies from within a running notebook, a better alternative is to configure binder by a series of <a href="https://repo2docker.readthedocs.io/en/latest/config_files.html">configuration files</a>, which can be stored in the users repository. These files are used to prepare a specialized docker image, which already contains all the mentioned dependencies. This approach has the great advantage that docker images are cached and thus the installation does not have to be performed again on every notebook start, but a cached version can directly be launched.</p>
+<h2>Shorter startup delays</h2>
+<p>Binder recreates the whole docker image for every new commit of the repository which is loaded into binder. For a blog (and maybe other repositories as well) this may lead to many more required rebuilds than necessary, as most of the commits will only touch the articles but not the required library dependencies. To reduce the amount of unnecessary rebuilds, a <a href="https://discourse.jupyter.org/t/tip-speed-up-binder-launches-by-pulling-github-content-in-a-binder-link-with-nbgitpuller/922">common method</a> is to use <a href="https://github.com/jupyterhub/nbgitpuller">nbgitpuller</a>. With nbgitpuller, it is possible to create a separate <em>environment repository</em> which is used to declare all dependencies but which likely will receive fewer commits. This repository will then be started by binder and immediately be instructed to pull in the actual code from the <em>data repository</em>. For this blog, we use <a href="https://github.com/eurec4a/hackathon_env">eurec4a/hackathon_env</a> as an environment repository. Accordingly, if you want to add dependencies for new code examples, these additions must go into that repository. Using binder in this two-repository mode requires a slightly more complicated way of generating direct links to the notebooks. There is a <a href="http://nbgitpuller.link/?tab=binder">tool for it</a> and a <a href="https://github.com/eurec4a/hackathon2020_blog/blob/118571b75c2c743f056ba191d7330458ac61020b/pelicanconf.py#L60">function</a> which is used by this blog.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+
+
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " EUREC4A Hackathon 2020 ",
+  "url" : "https://eurec4a.github.io/hackathon2020_blog",
+  "image": "https://eurec4a.github.io/hackathon2020_blog/images/logo_eurec4a.png",
+  "description": ""
+}
+</script>
+
+</body>
+</html>
