@@ -1,8 +1,7 @@
-Title: using intake to access specMACS products on DKRZ
+Title: using intake to access specMACS products
 Slug:
 Date: 2020-07-29
 Category: code examples
 Tags: code
 Author: Tobias Kölling
-Summary:
-
+Summary: This notebook demonstrates how to access the specMACS cloudmask product via an intake catalog. Additionally, a specific flight segment is selected from the flight metadata repository and the measured radiance is displayed.
