@@ -10,5 +10,6 @@ dependencies:
     - xarray
     - intake
     - intake-xarray
+    - pydap
     - pyyaml
     - typhon
