@@ -2,7 +2,7 @@ Title: Calculate cloud field properties from ASTER cloud masks on February 5
 Slug:
 Date: 2020-08-06
 Category: cloud field properties
-Tags: code
+Tags: code, ASTER, DAY-0205
 Author: Theresa Mieslinger
 Summary: The script shows how to process ASTER image data, calculate cloud field properties, such as cloud fraction, cloud top height, cloud sizes, and cloud clustering (Iorg) and save the information to netCDF files for each image.
 

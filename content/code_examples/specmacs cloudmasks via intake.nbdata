@@ -2,6 +2,6 @@ Title: Using intake to access specMACS products
 Slug:
 Date: 2020-07-29
 Category: code examples
-Tags: code
+Tags: code, specMACS, DAY-0205
 Author: Tobias Kölling
 Summary: This notebook demonstrates how to access the specMACS cloudmask product via an intake catalog. Additionally, a specific flight segment is selected from the flight metadata repository and the measured radiance is displayed.

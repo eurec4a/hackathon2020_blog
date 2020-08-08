@@ -2,7 +2,7 @@ Title: Plot all radar calibration patterns using halo-flight-phase-separation
 Slug:
 Date: 2020-08-06
 Category: radar calibration
-Tags: code
+Tags: code, HALO MIRA
 Author: Florian Ewald
 Summary: This minimal working example demonstrates how to grab flight segments and BAHAMAS navigation data for all HALO flights and use this dataset to plot all radar calibration patterns flown by HALO during EUREC4A.
 

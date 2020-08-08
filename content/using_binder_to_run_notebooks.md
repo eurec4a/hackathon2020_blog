@@ -3,6 +3,7 @@ Date: 2020-08-07 14:00
 Category: general
 Author: Tobias Kölling
 Summary: With binder, it is possible to prepare code examples such that readers can quickly start interacting with the code and data.
+Tags: infrastructure
 
 This post roughly describes the purpose binder and how binder is used within this blog.
 
