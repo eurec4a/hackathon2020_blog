@@ -14,7 +14,7 @@ PATH = 'content'
 MARKUP = ("md", "ipynb")
 
 THEME = 'themes/flex'
-SITELOGO = SITEURL + "images/logo_eurec4a.png"
+SITELOGO = SITEURL + "/images/logo_eurec4a.png"
 MAIN_MENU = True
 
 _menuitems = [('Archives', '/archives.html'),
