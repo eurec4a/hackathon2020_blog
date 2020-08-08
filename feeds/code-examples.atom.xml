@@ -1738,7 +1738,7 @@ dl.xr-attrs {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="code examples"></category><category term="code"></category></entry><entry><title>using intake to access specMACS products</title><link href="https://eurec4a.github.io/hackathon2020_blog/using-intake-to-access-specmacs-products.html" rel="alternate"></link><published>2020-07-29T00:00:00+00:00</published><updated>2020-07-29T00:00:00+00:00</updated><author><name>Tobias Kölling</name></author><id>tag:eurec4a.github.io,2020-07-29:/hackathon2020_blog/using-intake-to-access-specmacs-products.html</id><summary type="html">&lt;p&gt;This notebook demonstrates how to access the specMACS cloudmask product via an intake catalog. Additionally, a specific flight segment is selected from the flight metadata repository and the measured radiance is displayed.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+</content><category term="code examples"></category><category term="code"></category><category term="ASTER"></category><category term="DAY-0205"></category></entry><entry><title>Using intake to access specMACS products</title><link href="https://eurec4a.github.io/hackathon2020_blog/using-intake-to-access-specmacs-products.html" rel="alternate"></link><published>2020-07-29T00:00:00+00:00</published><updated>2020-07-29T00:00:00+00:00</updated><author><name>Tobias Kölling</name></author><id>tag:eurec4a.github.io,2020-07-29:/hackathon2020_blog/using-intake-to-access-specmacs-products.html</id><summary type="html">&lt;p&gt;This notebook demonstrates how to access the specMACS cloudmask product via an intake catalog. Additionally, a specific flight segment is selected from the flight metadata repository and the measured radiance is displayed.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -3091,4 +3091,4 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="code examples"></category><category term="code"></category></entry></feed>
+</content><category term="code examples"></category><category term="code"></category><category term="specMACS"></category><category term="DAY-0205"></category></entry></feed>

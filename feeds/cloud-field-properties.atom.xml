@@ -2469,7 +2469,7 @@ dl.xr-attrs {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="cloud field properties"></category><category term="code"></category></entry><entry><title>Plot cloud field properties derived from ASTER imgages on February 5</title><link href="https://eurec4a.github.io/hackathon2020_blog/plot-cloud-field-properties-derived-from-aster-imgages-on-february-5.html" rel="alternate"></link><published>2020-08-06T00:00:00+00:00</published><updated>2020-08-06T00:00:00+00:00</updated><author><name>Theresa Mieslinger</name></author><id>tag:eurec4a.github.io,2020-08-06:/hackathon2020_blog/plot-cloud-field-properties-derived-from-aster-imgages-on-february-5.html</id><summary type="html">&lt;p&gt;Read pre-processed netCDF files containing cloud field properties from ASTER images and plot those. Most interesting are the cloud size distribution and a 2d histogram showing the positive correlation between cloud sizes and their average cloud top heights.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+</content><category term="cloud field properties"></category><category term="code"></category><category term="ASTER"></category><category term="DAY-0205"></category></entry><entry><title>Plot cloud field properties derived from ASTER imgages on February 5</title><link href="https://eurec4a.github.io/hackathon2020_blog/plot-cloud-field-properties-derived-from-aster-imgages-on-february-5.html" rel="alternate"></link><published>2020-08-06T00:00:00+00:00</published><updated>2020-08-06T00:00:00+00:00</updated><author><name>Theresa Mieslinger</name></author><id>tag:eurec4a.github.io,2020-08-06:/hackathon2020_blog/plot-cloud-field-properties-derived-from-aster-imgages-on-february-5.html</id><summary type="html">&lt;p&gt;Read pre-processed netCDF files containing cloud field properties from ASTER images and plot those. Most interesting are the cloud size distribution and a 2d histogram showing the positive correlation between cloud sizes and their average cloud top heights.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -4357,4 +4357,4 @@ Wall time: 31.9 s
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="cloud field properties"></category><category term="code"></category></entry></feed>
+</content><category term="cloud field properties"></category><category term="code"></category><category term="ASTER"></category><category term="DAY-0205"></category></entry></feed>
