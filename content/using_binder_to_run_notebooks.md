@@ -1,4 +1,4 @@
-Title: Using binder for running notebooks interactively
+Title: Using binder to run notebooks interactively
 Date: 2020-08-07 14:00
 Category: general
 Author: Tobias Kölling
