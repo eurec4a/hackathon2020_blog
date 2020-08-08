@@ -7,7 +7,7 @@ AUTHOR = 'EUREC4A Community'
 SITENAME = 'EUREC4A Hackathon 2020'
 SITETITLE = "EUREC4A"
 SITESUBTITLE = "Hackathon 2020"
-SITEURL = '/'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -17,10 +17,10 @@ THEME = 'themes/flex'
 SITELOGO = SITEURL + "images/logo_eurec4a.png"
 MAIN_MENU = True
 
-_menuitems = [('Archives', 'archives.html'),
-              ('Categories', 'categories.html'),
-              ('Tags', 'tags.html'),
-              ('Authors', 'authors.html'),]
+_menuitems = [('Archives', '/archives.html'),
+              ('Categories', '/categories.html'),
+              ('Tags', '/tags.html'),
+              ('Authors', '/authors.html'),]
 
 def make_menu(basepath):
     return [(name, basepath + link) for name, link in _menuitems]
@@ -38,12 +38,15 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('EUREC4A Campaign Website', 'http://eurec4a.eu/'),
+LINKS = (('eurec4a.eu', 'http://eurec4a.eu/'),
+         ('operational center', 'https://observations.ipsl.fr/aeris/eurec4a/'),
+         ('Thredds Catalog', 'https://observations.ipsl.fr/thredds/catalog/EUREC4A/catalog.html'),
         )
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+SOCIAL = (
+    ('github', 'https://github.com/eurec4a'),
+)
 
 STATIC_PATHS = ['images']
 
