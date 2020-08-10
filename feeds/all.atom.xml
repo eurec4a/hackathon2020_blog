@@ -7560,7 +7560,69 @@ Wall time: 31.9 s
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="cloud field properties"></category><category term="code"></category><category term="ASTER"></category><category term="DAY-0205"></category></entry><entry><title>Using intake to access specMACS products</title><link href="https://eurec4a.github.io/hackathon2020_blog/using-intake-to-access-specmacs-products.html" rel="alternate"></link><published>2020-07-29T00:00:00+00:00</published><updated>2020-07-29T00:00:00+00:00</updated><author><name>Tobias Kölling</name></author><id>tag:eurec4a.github.io,2020-07-29:/hackathon2020_blog/using-intake-to-access-specmacs-products.html</id><summary type="html">&lt;p&gt;This notebook demonstrates how to access the specMACS cloudmask product via an intake catalog. Additionally, a specific flight segment is selected from the flight metadata repository and the measured radiance is displayed.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+</content><category term="cloud field properties"></category><category term="code"></category><category term="ASTER"></category><category term="DAY-0205"></category></entry><entry><title>Organizational Setup</title><link href="https://eurec4a.github.io/hackathon2020_blog/organizational-setup.html" rel="alternate"></link><published>2020-08-04T12:00:00+00:00</published><updated>2020-08-04T12:00:00+00:00</updated><author><name>Heike Konow</name></author><id>tag:eurec4a.github.io,2020-08-04:/hackathon2020_blog/organizational-setup.html</id><summary type="html">&lt;p&gt;This is an overview of the organization and setup for the first virtual EUREC4A Hackathon.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;The organizational setup for the EUREC4A Hackathon 2020&lt;/h1&gt;
+&lt;p&gt;Aside from the scientific collaboration, we also wanted to use the the EUREC4A Hackathon to test online collaboration for the EUREC4A community. We thought of this hackathon as a test bed to explore virtual collaboration. Not only due to the current pandemic, but also because we are a very distributed community in general.&lt;/p&gt;
+&lt;p&gt;This article describes our setup for this online collaborative workshop, what we have learned and what we would do differently in the future.&lt;/p&gt;
+&lt;h2&gt;Workshop phases&lt;/h2&gt;
+&lt;p&gt;The workshop was structured into two different phases: a preparation phase and a collaboration phase. During the &lt;strong&gt;preparation phase&lt;/strong&gt;, the participants explored different topics that they would like to work on during the workshop. During workshop registration, a couple of possible topics were collected and then discussed and refined in different groups during preparation phase. Most of the participants knew ahead of the actual workshop what project they would like to work on. The &lt;strong&gt;collaboration phase&lt;/strong&gt; took place over the course of three half days in the last week of July 2020.&lt;/p&gt;
+&lt;h2&gt;IT setup&lt;/h2&gt;
+&lt;p&gt;In the beginning of the preparation phase, we started a channel on &lt;strong&gt;Mattermost&lt;/strong&gt; (&lt;a href="https://mattermost.com"&gt;mattermost.com&lt;/a&gt;) with all participants. This was our main way of communication to reach everyone involved. All information about the workshop was share through this channel.&lt;/p&gt;
+&lt;p&gt;While planning the workshop, we identified the need to have a place for everyone to share information, links, data, anything. We debated setting up a Wiki for this, but then landed on a &lt;strong&gt;shared folder&lt;/strong&gt;. This folder was hosted on an OwnCloud instance and was accessible and editable for every participant. We used this from the organizational side to distribute participant lists, schedules, links, or introduction slides. From participant side, this was used to share Jupyter Notebooks, data sets, or links.&lt;/p&gt;
+&lt;p&gt;The center of our virtual collaborative workshop was the &lt;strong&gt;video conference system&lt;/strong&gt;. By connecting via video, we could still try to emulate a sense of togetherness even when being distributed over several countries and continents. After a bit of testing and getting feedback from different participants which systems they could use and which not, we landed on &lt;a href="https://bigbluebutton.org"&gt;BigBlueButton&lt;/a&gt;. We used an instance hosted by CEN IT at Hamburg University.&lt;/p&gt;
+&lt;h2&gt;Agenda&lt;/h2&gt;
+&lt;p&gt;The three half days of the workshop were split into discussions in plenum and &lt;em&gt;group work&lt;/em&gt;. This was the general structure:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="left"&gt;Day 1&lt;/th&gt;
+&lt;th align="left"&gt;Day 2&lt;/th&gt;
+&lt;th align="left"&gt;Day 3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;Welcome and introduction&lt;/td&gt;
+&lt;td align="left"&gt;Open questions&lt;/td&gt;
+&lt;td align="left"&gt;Open questions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;&lt;em&gt;Group work&lt;/em&gt;&lt;/td&gt;
+&lt;td align="left"&gt;&lt;em&gt;Group work&lt;/em&gt;&lt;/td&gt;
+&lt;td align="left"&gt;&lt;em&gt;Group work&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;Daily roundup&lt;/td&gt;
+&lt;td align="left"&gt;Daily roundup&lt;/td&gt;
+&lt;td align="left"&gt;Workshop roundup&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We began and ended with plenum discussions to share the state of the work, communicate about different aspects of the workshop, and discuss open questions. In-between, participants dispersed into smaller working groups. Additionally, we agreed on times to have a common coffee break for everyone interested to build a sense of community.&lt;/p&gt;
+&lt;p&gt;Participants were located in Europe and the US. To accomodate the different time zones, the workshop took place from 12 to 17 UTC each day.&lt;/p&gt;
+&lt;h2&gt;Tips and tricks&lt;/h2&gt;
+&lt;p&gt;We came up with a couple of tips and tricks as rules of communication for the virtual workshop.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Video on if possible:&lt;/em&gt; Video helps with nonverbal communication in an online setup. You can see if someone has left their computer, if they are distracted or if they want to say somenthing.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Audio off when in plenum:&lt;/em&gt; This helps reducing audio disruptions and echos. But it also reduces spontaneity in discussions. We found during the workshop that it could be helpful to leave audio on in smaller groups to have a more natural discussion.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Exclamation mark in chat:&lt;/em&gt; As a way to raise your hand, it is a good practise to post an exclamation mark. Not all video conference systems have the option for raising hands and the chat can be monitored by everyone and not only the moderator.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Stand up and walk away from the computer from time to time:&lt;/em&gt; Even though it is nice to be connected to the others during a workshop, it is important and sometimes also helpful to get up and walk away from time to time to clear your head and to stretch out. Videoconferencing for five hours straight would be a very long time and very hard.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Mattermost as main way of communication with everyone:&lt;/em&gt; We needed to identify one way of communication as a fallback option if everything else failed. We were especially unsure about the stability of the video conference system and needed a way to reach everyone in case we needed to switch platforms. Fortunately, this wasn't necessary. But it was still helpful to identify this as main communication channel, so that everyone knew how to reach all other participants.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Video conference setup&lt;/h2&gt;
+&lt;p&gt;As mentioned above, we decided to use BigBlueButton as our video conference platform.&lt;/p&gt;
+&lt;h3&gt;BigBlueButton&lt;/h3&gt;
+&lt;p&gt;We used BigBlueButton that was hosted by CEN IT at Hamburg University. We tested the setup ahead of the workshop with a couple of people to see how the system would work on different platforms and with different browsers. We found that the video streams would increase the CPU load on the computers but in a range where working would hopefully still be possible.&lt;/p&gt;
+&lt;h3&gt;Meeting rooms&lt;/h3&gt;
+&lt;p&gt;One way to facilitate a collaborative workshop atmosphere was to create opportunities to meet and discuss. This is why we came up with different virtual rooms. BigBlueButton offers running multiple meeting rooms in parallel and we created 10 rooms ahead of the workshop. One central meeting room was identified for everyone to meet in plenum or during coffee breaks and the others could be used for group discussions.&lt;/p&gt;
+&lt;p&gt;In an in-person workshop, people can walk around and go into different rooms and join different discussions. This is something we wanted to also have in our virtual workshop. We therefore collected a list of links to all meeting rooms and shared those with all participants. Since the experiment EUREC4A was centered on or close to Barbados, all rooms had names of places on Barbados. This made communication about the different rooms much easier. You didn't have to talk about URLs but simply name the room you were meeting in.&lt;/p&gt;
+&lt;p&gt;In the meeting rooms, every participant had moderator status to easily share screens or use whiteboard functionalities. This way, meetings could also be started by anyone.&lt;/p&gt;
+&lt;h2&gt;Ways of working&lt;/h2&gt;
+&lt;p&gt;We did not define the way of collaborative work but we proposed different options. Code was often shared via GitHub or via the shared OwnCloud folder. We arranged for guest accesses to the supercomputer of the DKRZ (&lt;a href="https://www.dkrz.de"&gt;Deutsches Klimarechenzentrum&lt;/a&gt;) and the associated file structure. Especially the JupyterHub running on the supercomputer was used for collaborative programming work during the hackathon.&lt;/p&gt;
+&lt;h2&gt;Lessons learned&lt;/h2&gt;
+&lt;p&gt;Overall, we were very happy with how things went and how many productive discussions took place. If we would organize something similar again, this is what we would also think about:
+* A list with important links is very helpful. This was created during the workshop and we collected links to different meeting rooms, the shared folder, access to the supercomputer, etc.
+* To have a lively discussion with most people having their audio on, head sets are very important to reduce echo and other audio disruption.
+* The initial discussions on the first day were sometimes a bit slow. People needed to get used to the format and get to know some people first. We would try to initiate these discussions already in the preparation phase of the workshop by having a short video meeting ahead of the actual workshop.&lt;/p&gt;</content><category term="general"></category><category term="infrastructure"></category></entry><entry><title>Using intake to access specMACS products</title><link href="https://eurec4a.github.io/hackathon2020_blog/using-intake-to-access-specmacs-products.html" rel="alternate"></link><published>2020-07-29T00:00:00+00:00</published><updated>2020-07-29T00:00:00+00:00</updated><author><name>Tobias Kölling</name></author><id>tag:eurec4a.github.io,2020-07-29:/hackathon2020_blog/using-intake-to-access-specmacs-products.html</id><summary type="html">&lt;p&gt;This notebook demonstrates how to access the specMACS cloudmask product via an intake catalog. Additionally, a specific flight segment is selected from the flight metadata repository and the measured radiance is displayed.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
