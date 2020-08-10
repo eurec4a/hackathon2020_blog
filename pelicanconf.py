@@ -41,6 +41,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (('eurec4a.eu', 'http://eurec4a.eu/'),
          ('operational center', 'https://observations.ipsl.fr/aeris/eurec4a/'),
          ('Thredds Catalog', 'https://observations.ipsl.fr/thredds/catalog/EUREC4A/catalog.html'),
+         ('AERIS leaflet', 'https://observations.ipsl.fr/aeris/eurec4a/Leaflet/'),
         )
 
 # Social widget
