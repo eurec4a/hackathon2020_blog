@@ -1,0 +1,8 @@
+Title: Utililty functions for calculating cloud field properties
+Slug:
+Date: 2020-08-10
+Category: cloud field properties
+Tags: code
+Author: Theresa Mieslinger
+Summary: Utility functions to work on cloud masks, such as filtering a cloud mask for small clouds, labeling cloud objects , and for calculating the cloud cluster index Iorg. In addition, two functions help to find a suitable binsize for cloud size distributions and derive 2 linear fits (double power law) to the distribution.
+
