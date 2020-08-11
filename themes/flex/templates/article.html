@@ -34,7 +34,9 @@
     </p>
     {% if article.relative_source_path.endswith(".ipynb") %}
     <p>
-    <a href="{{ article.relative_source_path|binder_link }}"><img src="https://mybinder.org/badge_logo.svg" alt="open in binder"></a>
+    <a href="{{ article.relative_source_path|binder_link }}"><img src="https://mybinder.org/badge_logo.svg" alt="open in binder"></a><br/>
+    <a href="https://github.com/eurec4a/hackathon2020_blog/blob/master/content/{{ article.relative_source_path }}">view on github</a><br/>
+    <a href="https://github.com/eurec4a/hackathon2020_blog/raw/master/content/{{ article.relative_source_path }}">download notebook</a>
     </p>
     {% endif %}
   </header>
